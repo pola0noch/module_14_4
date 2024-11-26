@@ -9,7 +9,7 @@ from crud_functions import *
 
 
 get_all_products()
-api = '8125982558:AAGmyXr1-seEDL5AzYm-Au8tuy39-oRmTIw'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
